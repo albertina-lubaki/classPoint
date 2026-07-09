@@ -1,0 +1,229 @@
+.container-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+}
+
+.container-fone{
+    background-color: #F5F5F5;
+    width: 494px;
+    border-radius: 20px;
+    border: 1px solid #0000000F;
+    padding: 53px 84px 53px 84px;
+    
+    
+}
+
+ .tele-banner{
+    width: 395px;
+    height: 393px;
+}
+
+
+.container-sub-banner{
+    width:568px;
+    height: 607px;
+   border: 2px solid pink;
+   
+}
+
+.linha-container{
+    width: 568px;
+    height: 165px;
+    padding: 16px;
+}
+
+.badge2{
+    width: 124px;
+    height: 33px;
+    border-radius: 100px;
+    margin: 6px 16px 6px 12px;
+    padding: 4px;
+    background-color: #F9FAFB;
+   
+}
+.badge2 .about-title{
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     font-size: 14px;
+     color: #031B1D;
+}
+
+.about-title-main{
+     font-family: "Outfit", sans-serif;
+     font-size: 40px;
+     font-weight: 800;
+     line-height: 120%;
+}
+
+.mini-caixa{
+    width: 531px;
+    height: 134px;
+    border-radius: 20px;
+    margin: 24px 20px 24px 20px;
+    padding: 22px;
+    background-color: #F1FFD2;
+}
+
+.span-div{
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+
+}
+
+.container-title3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #676666;   
+}
+
+.mini-caixa2{
+    width: 530px;
+    height: 134px;
+    border-radius: 20px;
+     margin: 24px 20px 24px 20px;
+    padding: 22px;
+    background-color: #E5E5E5;
+     margin-top: -14px;
+     border-top: 1px solid #E5E5E5;
+}
+
+.container-title2{
+     font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container-title3{
+      font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6B6969;
+   
+}
+
+.article{
+    margin-left: 177px;
+    margin-top: 132px;
+  
+}
+
+
+.badge1{
+    width: 174px;
+    height: 33px;
+    border-radius: 100px;
+    margin: 6px 16px 6px 12px;
+    padding: 4px;
+    background-color: #F9FAFB;
+}
+
+.paragrafo1{
+    color:#031B1D;
+    font-weight: 400;
+     font-family: "Poppins", sans-serif;
+     font-size: 14px;
+     line-height: 150%;
+
+}
+
+/*.ponto{
+    color: green;
+   position: relative;
+   left: -8px;
+   
+}*/
+
+
+
+#caixa-bar h1{
+    color: #000000;
+    font-family: "Outfit", sans-serif;
+    font-size: 34pt;
+
+}
+
+
+.paragrafo2{
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #676666;
+    margin-top: 12px;
+}
+
+.download-btn {
+display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 185px;              /* ajusta se quiseres */
+  height: 49px;
+  padding: 24px 32px 24px 24px;
+  border: none;
+  border-radius: 999px;
+  background: #FBF9F1;       /* verde do botão */
+  cursor: pointer;
+   margin-left: 188.5px;
+   margin-top: 52.5px;
+  box-sizing: border-box;
+}
+
+.download-btn__text {
+  white-space: nowrap;
+  line-height: 1;
+  margin-left: -1px;
+  margin-top: -5px;
+  font-size: 15pt;
+  font-weight: 600;
+   font-family: "Outfit", sans-serif;
+   width: 18px;
+  
+}
+
+.download-btn__icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 200px;
+  background: #00B512;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-bottom: 12.97px;
+  position: relative;
+  left: 70px;
+ 
+}
+.download-btn__icon svg {
+  width: 22px;
+  height: 22px;
+  stroke: #344054;
+  stroke-width: 2.1;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+   
+}
+
+.telemovel .tele{
+    margin-left: 711px;
+    margin-right: 150px;
+   position: relative;
+   top: -345px;
+   
+}
+
+
+
+
+  
+  
+

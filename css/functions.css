@@ -1,0 +1,94 @@
+.article {
+  margin-left: 177px;
+  margin-top: 132px;
+}
+
+.badge1 {
+  width: 174px;
+  height: 33px;
+  border-radius: 100px;
+  margin: 6px 16px 6px 12px;
+  padding: 4px;
+  background-color: #f9fafb;
+}
+
+.paragrafo1 {
+  color: #031b1d;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+#caixa-bar .functions-main-title {
+  color: #000000;
+  font-family: "Outfit", sans-serif;
+  font-size: 35pt;
+  font-weight: 800;
+}
+
+.paragrafo2 {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #676666;
+  margin-top: 12px;
+}
+
+.download-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 185px; /* ajusta se quiseres */
+  height: 49px;
+  padding: 24px 32px 24px 24px;
+  border: none;
+  border-radius: 999px;
+  background: #fbf9f1; /* verde do botão */
+  cursor: pointer;
+  margin-left: 188.5px;
+  margin-top: 52.5px;
+  box-sizing: border-box;
+  border: 0.8px solid #40af3e;
+}
+
+.download-btn__text {
+  white-space: nowrap;
+  line-height: 1;
+  margin-left: -1px;
+  margin-top: -5px;
+  font-size: 15pt;
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
+  width: 18px;
+}
+
+.download-btn__icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 200px;
+  background: #00b512;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-bottom: 12.97px;
+  position: relative;
+  left: 70px;
+}
+.download-btn__icon svg {
+  width: 22px;
+  height: 22px;
+  stroke: #344054;
+  stroke-width: 2.1;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.telemovel .tele {
+  margin-left: 711px;
+  margin-right: 150px;
+  position: relative;
+  top: -345px;
+}

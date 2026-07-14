@@ -10,6 +10,8 @@ body {
 }
 
 .navbar {
+  max-width: 1140px;
+  margin-inline: auto;
   width: 100%;
   display: flex;
   align-items: center;
@@ -20,9 +22,6 @@ body {
   display: flex;
   list-style: none;
   gap: 23px;
-  position: relative;
-  top: 20px;
-  right: 103px;
 }
 
 .nav-item a {
@@ -30,40 +29,26 @@ body {
   color: #dcdcdc;
   font-weight: 400;
   font-family: "Outfit", sans-serif;
-  margin: 1px;
   padding: 1px;
   font-size: 13pt;
 }
 .nav-logo {
-  margin-left: 135px;
-  margin-top: 18px;
 }
 
 .nav-item {
-  position: relative;
-  right: 99px;
-  top: 16px;
 }
-.title-logo {
-  margin-left: -318px;
-  margin-top: 15px;
-  font-family: "Outfit", sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  color: #ebe5e5;
+.nav-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
 }
 
-.ponto {
-  color: green;
-  position: relative;
-  left: -8px;
-}
 .btn-default {
   border: 1px solid #dcdcdc;
   width: 120px;
   height: 48px;
   padding: 10px;
-  margin: 10px;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 12px;
   font-family: "Poppins", sans-serif;
@@ -78,12 +63,20 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-inline: auto;
+  margin-top: 76px;
 }
 
 .content-left {
   display: flex;
   flex-direction: column;
-  border: 1px solid orange;
+
+  gap: 40px;
+}
+
+.article2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .badge {
@@ -102,10 +95,10 @@ body {
   width: 150%;
 }
 
-#caixa-bar1 h1 {
+#caixa-bar1 .hero-title-h1 {
   color: #ffff;
   font-family: "Outfit", sans-serif;
-  font-size: 34pt;
+  font-size: 64px;
 }
 
 .midle-title {
@@ -169,14 +162,18 @@ body {
   stroke-linejoin: round;
 }
 
-.telemovel1 .tele1 {
+.group-channel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 92px;
 }
 
-.channel-contact1 .channel {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.channel-contact {
+  max-width: 1140px;
+  margin-inline: auto;
   width: 100%;
-  top: 820px;
+  background-color: #04684c;
+  padding: 20px 24px 20px 24px;
+  margin: 92px;
 }
